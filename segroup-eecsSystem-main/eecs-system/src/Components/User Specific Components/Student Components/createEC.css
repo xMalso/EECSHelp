@@ -1,0 +1,142 @@
+.self-certified {
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;
+    background-color: #cccccc;
+    border: 1px solid #999999;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.self-certified:checked {
+    background-image: url('../../../pics/tick.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+
+
+.padding-grid-create-ec{
+
+    margin-left: 15%;
+    /* border: 3px solid red; */
+
+    /* max-height: 93vh; */
+
+
+}
+
+.heading-create-ec{
+   text-align: center;
+   font-size: xx-large;
+   
+}
+
+.ec-form-title{
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brief-description-ec{
+    font-size: medium;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+.grid-create-ec {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: white;
+    margin-top: 8vh;
+    padding: 5%;
+    gap: 30px;
+    margin-left: 15%; 
+    margin-right: 15%;
+    margin-bottom: 8vh;
+    
+
+    border-radius: 15px;
+    /* box-shadow: 0px 1px 7px rgb(121, 118, 115); */
+    box-shadow: 0px 1px 7px rgb(193, 192, 190);
+
+    /* max-height: 93vh; */
+
+    /* border: 3px solid red; */
+
+    
+}
+
+.scrollable-grid {
+    max-height: 93vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+.select-module-ec{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    background-color: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.ec-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+    margin-bottom: 7px;
+    
+}
+
+.ec-input-description{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+    margin-bottom: 7px;
+
+    background: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+
+    resize: none;
+
+}
+
+
+.ec-submit {
+    margin-top: 30px;
+    width: 20%; 
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.ec-submit:hover{
+    background-color: var(--purple);
+
+}
+

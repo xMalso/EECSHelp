@@ -1,0 +1,159 @@
+
+.padding-grid-update-faq{
+
+    padding: 5%;
+    margin-left: 15%;
+
+
+    max-height: 93vh; /* Adjust the height as needed */
+
+
+
+}
+/* .grid-container-update-faq{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-height: 70vh;
+    min-height: 70vh;
+    
+    gap:15px;
+
+
+} */
+
+.grid-container-update-faq {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-height: 70vh;
+    min-height: 70vh;
+    gap: 15px;
+}
+
+.grid-container-update-faq > div {
+    position: relative; /* Ensure positioning context for ::after pseudo-element */
+    padding-bottom: 10px; /* Add space at the bottom of each grid item */
+}
+
+.grid-container-update-faq > div:not(:last-child)::after {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    bottom: 0; /* Align border to the bottom of the grid item */
+    left: 50%; /* Align border to the center horizontally */
+    transform: translateX(-50%); /* Center the border horizontally */
+    width: 100%; /* Adjust the width of the border */
+    height: 3px; /* Adjust the height of the border */
+    border-radius: 10px;
+    background-color: rgb(215, 215, 215); /* Choose your desired border color */
+}
+
+
+.update-faqs-main-title{
+    text-align: center;
+    padding-bottom: 5vh;
+    font-size: x-large;
+ 
+
+
+}
+
+.box-update-faq{
+
+    background: rgba(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 7px rgb(193, 192, 190);
+    
+    padding: 5%;
+    
+    height: 100%;
+    /* max-height: 70vh; Limit the height to prevent overflow */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+    min-width: none;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70vh;
+
+    
+    /* WebKit (Chrome, Safari) */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: rgba(187, 185, 181, 0.5) transparent; /* For Firefox */
+
+    /* WebKit (Chrome, Safari) */
+    &::-webkit-scrollbar {
+        width: 15px; /* Width of the scrollbar */
+        height: 10px; /* Height of the scrollbar */
+    }
+
+    /* WebKit (Chrome, Safari) */
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(187, 185, 181, 0.8); /* Color of the scrollbar thumb */
+        border-radius: 5px; /* Curved edges */
+        width: 15px; /* Adjust the width of the scrollbar thumb */
+    }
+
+
+}
+
+.faq-select-question{
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    background-color: rgb(248,244,238);
+    box-shadow: 0px 1px 7px rgb(213, 212, 210);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add_form ,#remove_form, #update_form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    border-radius: 15%;
+    padding: 1%;
+
+
+}
+
+.update-faq-form-section-title{
+    font-size:larger;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.update-faq-input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 1px 7px rgb(207, 206, 204);
+}
+
+.update-faq-submit-button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+.update-faq-submit-button{
+    width: 20%;
+    background-color: #0D3273;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 3px rgb(149, 147, 147);
+
+}
+
+.update-faq-submit-button:hover{
+    background-color: #7B0E72;
+    cursor: pointer;
+
+}
+

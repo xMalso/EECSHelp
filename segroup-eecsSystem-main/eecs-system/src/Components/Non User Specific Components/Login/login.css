@@ -1,0 +1,110 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.background-login {
+    background-color: #092556;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    height: 100vh;
+}
+
+h1{
+    font-size:xx-large;
+}
+
+h2{
+    padding: 5%;
+    font-size: larger;
+}
+
+.grid-login-container{
+    display: grid;
+    grid-template-rows: auto;
+    width: 38.375rem;
+    height: 45em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.25rem;
+    background: #FFF;
+    text-align: center;
+    border: 5px solid #031535;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    
+   
+
+}
+.error-popup button {
+    transition: transform 0.3s ease;
+}
+.error-popup button:hover {
+    transform: scale(1.1);
+  }
+.login-form{
+    padding: 10%;
+    
+    
+}
+
+.input-box{
+    padding: 5%;
+    margin-top: 10%;
+}
+
+input {
+    border-radius: 5px;
+    background: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    width: 70%;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+button {
+    border-radius: 20px;
+    background: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    padding: 1%;
+    width: 10%;
+    transition: transform 0.3s ease;
+}
+
+.button{
+    border-radius: 20px;
+    background: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    padding: 1%;
+    width: 30%;
+    
+}
+
+.button:hover {
+    background: rgba(198, 195, 189, 0.50);
+    transform: scale(1.1);
+
+
+}
+
+.close{
+    border-radius: 20px;
+    background: #F8F4EE;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    padding: 1%;
+    width: 25%;
+    margin-bottom: 5%;
+
+}
+
+.close:hover{
+    background: rgba(198, 195, 189, 0.50);
+
+}

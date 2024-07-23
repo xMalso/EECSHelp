@@ -1,0 +1,29 @@
+/* Reset.css */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color:inherit;
+    background-color: 0;
+    font-size:inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    table-layout: auto;
+    width: auto;
+    height: auto;
+    word-spacing: inherit;
+}
+
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

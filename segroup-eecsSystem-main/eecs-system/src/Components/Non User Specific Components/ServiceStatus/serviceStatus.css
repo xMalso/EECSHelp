@@ -1,0 +1,65 @@
+
+#service-status-container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+
+    max-height: 93vh;
+    overflow-y: auto;
+
+    
+}
+
+#services{
+    padding-bottom: 3%;
+    
+}
+
+#service_h1{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: x-large;
+}
+
+.entry2{
+    color: rgb(105, 105, 105);
+    
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_table{
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    
+
+}
+
+#footer div{
+    display: flex;
+    align-items: center;
+}
+
+#footer div img{
+    padding: 3%;
+}
+
+.gray {
+    background-color: rgb(212, 212, 212);
+    
+
+}
+
+
+td{
+    width:100%;
+    padding: 10px;
+}
+

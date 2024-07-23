@@ -1,0 +1,199 @@
+.padding-grid-admin{
+
+    padding: 5%;
+    margin-left: 15%;
+
+    max-height: 93vh; /* Adjust the height as needed */
+
+
+
+}
+.grid-container-admin{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    max-height: 70vh;
+    min-height: 70vh;
+    /* min-width: none;
+    margin-bottom: 20vh;
+
+    padding: 2%; */ 
+
+    gap:15px;
+
+
+
+    
+
+}
+
+
+.box-admin {
+    background: rgba(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    /* box-shadow: 0px 1px 7px rgb(121, 118, 115); */
+    box-shadow: 0px 1px 7px rgb(193, 192, 190);
+    
+    
+    height: 100%;
+    /* max-height: 70vh; Limit the height to prevent overflow */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+    min-width: none;
+    max-height: 70vh;
+
+    
+    /* WebKit (Chrome, Safari) */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: rgba(187, 185, 181, 0.5) transparent; /* For Firefox */
+
+    /* WebKit (Chrome, Safari) */
+    &::-webkit-scrollbar {
+        width: 15px; /* Width of the scrollbar */
+        height: 10px; /* Height of the scrollbar */
+    }
+
+    /* WebKit (Chrome, Safari) */
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(187, 185, 181, 0.8); /* Color of the scrollbar thumb */
+        border-radius: 5px; /* Curved edges */
+        width: 15px; /* Adjust the width of the scrollbar thumb */
+    }
+
+    
+    
+
+ 
+
+
+}
+
+.scrollable-admin {
+    max-height: 93vh;
+
+}
+
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.ec-title-button-side-1{
+
+    text-align: center;
+    background-color: rgba(187, 185, 181, 0.3);
+    border-radius: 8px;
+    padding-right: 2px;
+
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    font-size: medium;
+   
+    
+}
+
+
+.ec-title-button-side-1:hover{
+    background-color: rgba(187, 185, 181, 0.5);
+    border-left: 4px solid #0D3273;
+
+    
+}
+
+
+
+.ec-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+    
+    /* Prevent text from wrapping */
+  
+}
+
+
+.ec-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; /* First row covers 20%, second row covers 80% */
+  
+
+    padding: 3%;
+
+  }
+  
+.ec-information{
+    padding: 5%;
+    border-bottom: 2px solid rgba(13, 50, 115, 0.3);
+    
+
+}
+
+.ec-details{
+    padding: 5%;
+    /* overflow-x: auto; Enable horizontal scrolling */
+    
+  
+    
+    padding: 2%; 
+
+}
+
+.admin-button-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Distribute space between buttons */
+}
+
+.admin-ec-button{
+    
+    border-radius: 20px;
+    background-color: var(--blue);
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    height: fit-content;
+
+    align-self: end;
+    margin-bottom: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+.admin-ec-button:hover{
+    background-color: var(--purple);
+    color: white;
+
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
+.grid-row-span-2{
+    grid-row: span 2;
+}
+
+.ticketFeedback {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+    margin-bottom: 7px;
+    background: #f8f4ee;
+    box-shadow: 0px 1px 7px rgb(230, 227, 227);
+    padding: 10px;
+    height: 100%;
+    resize: none;
+  }
+  
+

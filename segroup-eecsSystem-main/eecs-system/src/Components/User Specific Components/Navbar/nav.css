@@ -1,0 +1,112 @@
+:root{
+    --blue: #0D3273;
+    --pink: #C10077;
+    --grey: #E2E2E2;
+    --purple: #7B0E72;
+
+}
+
+
+body {
+
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 90px;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+    line-height: 1.5em;
+    height: 100%;
+    background-color: #E2E2E2;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    width: 100%;
+    height: 90vh;
+}
+
+
+/* top nav */
+
+#topnav{
+    background-color: var(--blue);
+    /* padding: 50px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: right;
+    color:white;
+    height: 7vh;
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* 
+    position: fixed;
+    width: 100%; */
+}
+
+.topNavItem {
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 1%;
+}
+
+.topNavItem:hover{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+/* side nav */
+
+#left {
+    width: 15%;
+    height: 93vh; /* Set height to 100% of the viewport height */
+    background-color: var(--pink);
+    float:left;
+    color: white;
+    text-align: center;
+
+    /* position: fixed;
+    top: 10vh;
+    left: 0;  */
+  
+    
+
+}
+
+.move-left{
+    margin-right: auto; /* Push items to the right */
+    font-size: x-large;
+ 
+}
+
+
+/* buttons */
+
+button{
+    width: 80%;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: larger;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+
+}
+
+button:hover{
+    background-color: var(--purple);
+}
+
